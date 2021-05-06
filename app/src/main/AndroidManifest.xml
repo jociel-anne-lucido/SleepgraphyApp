@@ -9,13 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SleepgraphyApp">
-        <activity android:name=".Recording"></activity>
+        <activity android:name=".UserSettings"></activity>
+        <activity android:name=".Analysis" />
+        <activity android:name=".Recording" />
         <activity android:name=".Clock" />
         <activity android:name=".Home" />
         <activity android:name=".Welcome" />
         <activity android:name=".ForgotPass" />
         <activity android:name=".Login" />
-        <activity android:name=".Homepage" />
         <activity android:name=".Assessment" />
         <activity android:name=".Signup" />
         <activity android:name=".LoginActivity" />

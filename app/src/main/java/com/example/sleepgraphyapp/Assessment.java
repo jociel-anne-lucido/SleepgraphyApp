@@ -78,7 +78,7 @@ public class Assessment extends AppCompatActivity {
                     progressBar.setVisibility(View.GONE);
                     Toast.makeText(Assessment.this, "Registered successfully.", Toast.LENGTH_SHORT).show();
                     finish();
-                    startActivity(new Intent(Assessment.this, Homepage.class));
+                    startActivity(new Intent(Assessment.this, Welcome.class));
 
                 } else {
                     UpdateQuestion();

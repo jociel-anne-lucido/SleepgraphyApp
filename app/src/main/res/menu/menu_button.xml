@@ -4,28 +4,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home"
+        app:cnb_backgroundColor="#e5e5e5"
+        app:cnb_iconColor=" #9A8C98"
+        app:cnb_textColor=" #9A8C98" />
+    <item
+        android:id="@+id/tracker"
+        android:icon="@drawable/moon"
         android:title="Tracker"
-        android:icon="@drawable/picture1"
         app:cnb_backgroundColor="#e5e5e5"
         app:cnb_iconColor=" #9A8C98"
-        app:cnb_textColor= " #9A8C98"
-        />
+        app:cnb_textColor=" #9A8C98" />
     <item
-        android:id="@+id/Analysis"
+        android:id="@+id/analysis"
+        android:icon="@drawable/barchart"
         android:title="Analysis"
-        android:icon="@drawable/picture2"
         app:cnb_backgroundColor="#e5e5e5"
         app:cnb_iconColor=" #9A8C98"
-        app:cnb_textColor= " #9A8C98"
-        />
-    <item
-        android:id="@+id/settings"
-        android:title="Settings"
-        android:icon="@drawable/picture3"
-        app:cnb_backgroundColor="#e5e5e5"
-        app:cnb_iconColor=" #9A8C98"
-        app:cnb_textColor= " #9A8C98"
-        />
+        app:cnb_textColor=" #9A8C98" />
 
 
 </menu>

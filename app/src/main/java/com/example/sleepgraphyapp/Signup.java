@@ -136,7 +136,7 @@ public class Signup extends AppCompatActivity {
         super.onStart();
 
         if (FirebaseAuth.getInstance().getCurrentUser() != null) {
-            startActivity(new Intent(Signup.this, Homepage.class));
+            startActivity(new Intent(Signup.this, Clock.class));
         }
     }
 

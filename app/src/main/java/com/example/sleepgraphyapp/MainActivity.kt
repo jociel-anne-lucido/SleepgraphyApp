@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
         Handler().postDelayed({
 
             if (FirebaseAuth.getInstance().currentUser != null) {
-                startActivity(Intent(this, Homepage::class.java))
+                startActivity(Intent(this, Clock::class.java))
             } else {
                 val intent = Intent(this, LoginActivity::class.java)
                 startActivity(intent)
