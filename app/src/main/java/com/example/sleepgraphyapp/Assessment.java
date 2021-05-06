@@ -62,9 +62,7 @@ public class Assessment extends AppCompatActivity {
 
                     FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
                     String uid = user.getUid();
-                    DatabaseReference userRef = FirebaseDatabase
-                            .getInstance()
-                            .getReference("UserData")
+                    DatabaseReference userRef = FirebaseDatabase.getInstance().getReference("UserData")
                             .child(uid);
 
                     DatabaseReference pushRef = userRef.push();

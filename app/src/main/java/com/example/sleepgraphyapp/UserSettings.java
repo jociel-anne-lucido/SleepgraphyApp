@@ -6,18 +6,20 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class UserSettings extends AppCompatActivity {
 
-    private Button button_logout;
-    private ImageView button_back;
+    private ImageView button_back, button_logout;
 
-    FirebaseUser firebaseUser;
     FirebaseAuth auth;
 
     @Override
@@ -29,7 +31,6 @@ public class UserSettings extends AppCompatActivity {
         button_back = findViewById(R.id.back_button);
 
         auth = FirebaseAuth.getInstance();
-        firebaseUser = auth.getCurrentUser();
 
         button_logout.setOnClickListener(v -> {
             auth.signOut();
@@ -39,6 +40,8 @@ public class UserSettings extends AppCompatActivity {
 
         button_back.setOnClickListener(v -> startActivity(new Intent(UserSettings.this, Clock.class)));
     }
+
+
 
     @Override
     public void onBackPressed() {

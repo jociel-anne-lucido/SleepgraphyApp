@@ -42,6 +42,20 @@
                                           </PersistentState>
                                         </value>
                                       </entry>
+                                      <entry key="image">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="color" value="000000" />
+                                                <entry key="imagePath" value="C:\Users\dell\Desktop\PUP\CET4\DESIGN\WIREFRAME\ICONS\logout.png" />
+                                                <entry key="opacityPercent" value="80" />
+                                                <entry key="paddingPercent" value="5" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
                                       <entry key="text">
                                         <value>
                                           <PersistentState>
@@ -68,7 +82,9 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="outputName" value="ic_back" />
+                                      <entry key="assetType" value="IMAGE" />
+                                      <entry key="imageAsset" value="C:\Users\dell\Desktop\PUP\CET4\DESIGN\WIREFRAME\ICONS\logout.png" />
+                                      <entry key="outputName" value="ic_logout" />
                                       <entry key="theme" value="CUSTOM" />
                                       <entry key="themeColor" value="22223b" />
                                     </map>
@@ -323,7 +339,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/trending_up/baseline_trending_up_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialiconsoutlined/lock/outline_lock_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -333,8 +349,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="ffffff" />
-                            <entry key="outputName" value="ic_trend_up" />
+                            <entry key="color" value="4a4e69" />
+                            <entry key="outputName" value="ic_pass" />
                             <entry key="sourceFile" value="C:\Users\dell\Documents\PUP\CET4\DESIGN\APP\bottom.svg" />
                           </map>
                         </option>

@@ -51,7 +51,7 @@ public class Signup extends AppCompatActivity {
 
                     // stores user attributes to db
 
-                    User data = new User(name, age, gender, email);
+                    User data = new User(name, age, gender, email, password);
 
                     FirebaseDatabase.getInstance().getReference("UserData")
                             .child(FirebaseAuth.getInstance().getCurrentUser().getUid()).setValue(data).

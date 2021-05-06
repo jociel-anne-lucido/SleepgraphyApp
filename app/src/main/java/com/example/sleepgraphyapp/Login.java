@@ -34,7 +34,7 @@ public class Login extends AppCompatActivity {
         button_login = findViewById(R.id.login_button);
         button_frgtpass = findViewById(R.id.frgtpass_button);
         button_back = findViewById(R.id.back_button);
-        progressBar = findViewById(R.id.progressBar2);
+        progressBar = findViewById(R.id.loadingBar);
         progressBar.setVisibility(View.GONE);
 
         button_login.setOnClickListener(v -> {
